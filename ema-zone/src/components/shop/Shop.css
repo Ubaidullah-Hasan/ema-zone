@@ -5,10 +5,7 @@
 .porducts-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 45px;
+    gap: 25px;
     padding: 50px;
-}
-.order-summery{
-    /* background-color: orange; */
-    margin-top: 20px;
+    padding-right: 40px;
 }

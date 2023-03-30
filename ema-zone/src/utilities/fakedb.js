@@ -10,6 +10,7 @@ const addToDb = id => {
         const newQuantity = quantity + 1;
         shoppingCart[id] = newQuantity;
     }
+    console.log(shoppingCart)
     localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
 }
 
